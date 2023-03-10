@@ -1,0 +1,37 @@
+1.SELECT plaintext FROM wordform GROUP BY plaintext ORDER BY count(*) DESC LIMIT 10;
+
+2.SELECT plaintext FROM wordform WHERE plaintext ILIKE 'a%';
+
+3.SELECT title, genretype FROM work WHERE genretype = 'p';
+
+4.SELECT AVG(totalparagraphs) FROM work WHERE genretype = 't';
+
+5.SELECT title FROM work WHERE totalwords >= (SELECT AVG(totalwords) FROM work);
+
+6.SELECT character.charname, speechcount, work.title FROM character LEFT JOIN character_work ON character.charid = character_work.charid LEFT JOIN work ON character_work.workid = work.workid
+
+7.SELECT ROUND(avg(speechcount)), work.title FROM character JOIN character_work ON character.charid = character_work.charid JOIN work ON character_work.workid = work.workid WHERE work.title = 'Romeo and Juliet' GROUP BY work.title;
+
+8.shakespeare=# SELECT DISTINCT section  FROM paragraph;
+shakespeare=# select sum(wordcount) from paragraph where section=0;
+shakespeare=# select sum(wordcount) from paragraph where section=1;
+shakespeare=# select sum(wordcount) from paragraph where section=2;
+shakespeare=# select sum(wordcount) from paragraph where section=3;
+shakespeare=# select sum(wordcount) from paragraph where section=4;
+shakespeare=# select sum(wordcount) from paragraph where section=5;
+
+8.shakespeare=# select sum(wordcount) from paragraph GROUP BY section;
+
+9.shakespeare=# select charname from character where speechcount between 15 and 30;
+
+10.shakespeare=# select title from work where year between 1600 and 1699;
+
+11.shakespeare=# select title from work where longtitle ilike '%the%';
+
+12.SELECT DISTINCT section FROM paragraph;
+
+13.shakespeare=# select chapterid, description, work.title from chapter join work on chapter.workid = work.workid;
+
+14.shakespeare=# select paragraphnum, character.charname, character.speechcount from paragraph join character on paragraph.charid = character.charid;
+
+15.shakespeare=# select paragraphnum , work.title, work.year from paragraph join work on paragraph.workid = work.workid;

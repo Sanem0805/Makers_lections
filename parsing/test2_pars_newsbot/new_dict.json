@@ -1,0 +1,176 @@
+{
+    "536182": {
+        "article_date_timestamp": 1675076206.0,
+        "article_title": "Нейросеть Stable Diffusion позволила художникам перемещаться во времени",
+        "article_url": "https://www.securitylab.ru/news/536182.php",
+        "article_desc": "Машина времени оказалась не такой, как мы её представляли."
+    },
+    "536181": {
+        "article_date_timestamp": 1675073400.0,
+        "article_title": "Функция обнаружения аварий в iPhone мешает работе экстренных служб",
+        "article_url": "https://www.securitylab.ru/news/536181.php",
+        "article_desc": "Сотни ложных вызовов ежемесячно – стоило ли оно того?"
+    },
+    "536180": {
+        "article_date_timestamp": 1675071556.0,
+        "article_title": "Подросток из Франции экстрадирован в США, где проведёт 116 лет за решёткой",
+        "article_url": "https://www.securitylab.ru/news/536180.php",
+        "article_desc": "Дело французского студента дополнилось новыми подробностями и приняло ещё большие обороты."
+    },
+    "536179": {
+        "article_date_timestamp": 1675069800.0,
+        "article_title": "ChatGPT – плагиат! ИИ больше нельзя указать автором научной статьи",
+        "article_url": "https://www.securitylab.ru/news/536179.php",
+        "article_desc": "Обновлённая редполитика популярных академических журналов «похоронила» искусственный интеллект"
+    },
+    "536178": {
+        "article_date_timestamp": 1675067688.0,
+        "article_title": "Токийская полиция и компании Японии обучаются борьбе с компьютерным терроризмом",
+        "article_url": "https://www.securitylab.ru/news/536178.php",
+        "article_desc": "Полицейской управление Токио хочет повысить бдительность бизнес-структур к кибератакам"
+    },
+    "536177": {
+        "article_date_timestamp": 1675067085.0,
+        "article_title": "Червь PlugX теперь незаметно распространяется через USB-накопители",
+        "article_url": "https://www.securitylab.ru/news/536177.php",
+        "article_desc": "Подменяя и скрывая файлы, новый вариант PlugX теперь будет быстро распространяться на многие системы."
+    },
+    "536176": {
+        "article_date_timestamp": 1675065629.0,
+        "article_title": "IT-специалисты смогут легче получить льготную ипотеку",
+        "article_url": "https://www.securitylab.ru/news/536176.php",
+        "article_desc": "Министр подчеркнул необходимость поддерживать IT-специалистов и важность сохранения кадровых ресурсов в IT-отрасли в России."
+    },
+    "536174": {
+        "article_date_timestamp": 1675062900.0,
+        "article_title": "Белые хакеры скоро выложат в открытый доступ эксплойт VMware vRealize Log RCE",
+        "article_url": "https://www.securitylab.ru/news/536174.php",
+        "article_desc": "Нашумевшая группировка Horizon3 вновь демонстрирует, почему важно вовремя устанавливать обновления безопасности."
+    },
+    "536164": {
+        "article_date_timestamp": 1675058580.0,
+        "article_title": "5 вредоносных программ одновременно атаковали информационное агентство Украины",
+        "article_url": "https://www.securitylab.ru/news/536164.php",
+        "article_desc": "Злоумышленники больше месяца подготавливали смесь из 5-ти очистителей данных."
+    },
+    "536167": {
+        "article_date_timestamp": 1675056600.0,
+        "article_title": "Бесплатный сыр только в мышеловке: Google Play снова пустил мошенников в свой магазин",
+        "article_url": "https://www.securitylab.ru/news/536167.php",
+        "article_desc": "Мобильные приложения обещают реальные деньги за выполнение достижений и просмотр рекламы."
+    },
+    "536150": {
+        "article_date_timestamp": 1675053739.0,
+        "article_title": "Неизвестное ранее вредоносное ПО очистило системные диски Украины",
+        "article_url": "https://www.securitylab.ru/news/536150.php",
+        "article_desc": "В сети страны проник очиститель данных, про который экспертам ещё предстоит узнать подробнее."
+    },
+    "536148": {
+        "article_date_timestamp": 1675006056.0,
+        "article_title": "Массовый сбой Microsoft 365 вызван изменением IP-адресов на WAN  маршрутизаторах",
+        "article_url": "https://www.securitylab.ru/news/536148.php",
+        "article_desc": "Microsoft признала ответственность за глобальный сбой своей сетевой инфраструктуры."
+    },
+    "536187": {
+        "article_date_timestamp": 1675083326.0,
+        "article_title": "Baidu Inc внедряет ИИ в чат-бот сервис, следуя за ChatGPT от OpenAI",
+        "article_url": "https://www.securitylab.ru/news/536187.php",
+        "article_desc": "После новости акции Baidu выросли на 5,8%."
+    },
+    "536186": {
+        "article_date_timestamp": 1675085100.0,
+        "article_title": "Большая часть криминальной криптовалюты проходит через одни и те же биржи",
+        "article_url": "https://www.securitylab.ru/news/536186.php",
+        "article_desc": "За отмыванием денежных средств в шокирующих объёмах стоит всего 5 криптобирж."
+    },
+    "536231": {
+        "article_date_timestamp": 1675262400.0,
+        "article_title": "Хакеры используют новую вредоносную программу IceBreaker для взлома игровых компаний",
+        "article_url": "https://www.securitylab.ru/news/536231.php",
+        "article_desc": "И снова в ходу социальная инженерия, на сей раз злоумышленники дурачат агентов поддержки."
+    },
+    "536229": {
+        "article_date_timestamp": 1675256856.0,
+        "article_title": "Группировка LockBit взяла на себя ответственность за кибератаку на ТВ-канал США",
+        "article_url": "https://www.securitylab.ru/news/536229.php",
+        "article_desc": "Хакеры потеряли хватку – их жертва оказалась умнее."
+    },
+    "536228": {
+        "article_date_timestamp": 1675253229.0,
+        "article_title": "Компания Eleven Labs заблокировала пользователей своей нейросети за оскорбления голливудских звёзд",
+        "article_url": "https://www.securitylab.ru/news/536228.php",
+        "article_desc": "Инструмент для генерации голоса заставил Эмму Уотсон и других знаменитостей выразить свою неприязнь к евреям."
+    },
+    "536227": {
+        "article_date_timestamp": 1675251900.0,
+        "article_title": "Prilex возвращается: старый вредонос набирает новые обороты",
+        "article_url": "https://www.securitylab.ru/news/536227.php",
+        "article_desc": "Скомпрометированные платёжные терминалы могут передавать злоумышленникам данные банковской карты."
+    },
+    "536226": {
+        "article_date_timestamp": 1675246544.0,
+        "article_title": "98% устройств QNAP уязвимы для SQL-инъекций",
+        "article_url": "https://www.securitylab.ru/news/536226.php",
+        "article_desc": "Компания выпустила обновления, но большинство клиентов их проигнорировали."
+    },
+    "536225": {
+        "article_date_timestamp": 1675244700.0,
+        "article_title": "﻿Microsoft: более 100 хакерских группировок используют программы-вымогатели в своих атаках",
+        "article_url": "https://www.securitylab.ru/news/536225.php",
+        "article_desc": "Число модификаций вымогательского программного обеспечения ежедневно растёт."
+    },
+    "536223": {
+        "article_date_timestamp": 1675240800.0,
+        "article_title": "Новый эксплойт Sh1mmer позволяет отвязать ChromeBook от организации",
+        "article_url": "https://www.securitylab.ru/news/536223.php",
+        "article_desc": "Предприимчивые американские подростки теперь могут сбросить школьный ноутбук и использовать его без ограничений."
+    },
+    "536224": {
+        "article_date_timestamp": 1675240557.0,
+        "article_title": "IT-специалистам в России начали предлагать более низкие зарплаты",
+        "article_url": "https://www.securitylab.ru/news/536224.php",
+        "article_desc": "Уменьшились зарплаты специалистов, работающих в сферах, которые пострадали от санкций."
+    },
+    "536222": {
+        "article_date_timestamp": 1675239010.0,
+        "article_title": "KeePass не принимает жалобы пользователей об уязвимости в своих системах",
+        "article_url": "https://www.securitylab.ru/news/536222.php",
+        "article_desc": "Ошибка позволяет хакеру экспортировать все пароли пользователя в открытом виде."
+    },
+    "536221": {
+        "article_date_timestamp": 1675237238.0,
+        "article_title": "Киберпреступники используют доверенных разработчиков Microsoft для взлома корпоративной почты",
+        "article_url": "https://www.securitylab.ru/news/536221.php",
+        "article_desc": "Злоумышленники распространяют вредоносные OAuth-приложения и проникают в облачные среды организаций."
+    },
+    "536220": {
+        "article_date_timestamp": 1675235100.0,
+        "article_title": "Яндекс создаст аналог ChatGPT",
+        "article_url": "https://www.securitylab.ru/news/536220.php",
+        "article_desc": "Нейросеть будет интегрирована в сервисы Яндекса уже в этом году."
+    },
+    "536217": {
+        "article_date_timestamp": 1675233300.0,
+        "article_title": "В программном обеспечении American Megatrends выявили новые уязвимости",
+        "article_url": "https://www.securitylab.ru/news/536217.php",
+        "article_desc": "В центре внимания снова серверные решения AMI MegaRAC BMC."
+    },
+    "536213": {
+        "article_date_timestamp": 1675227289.0,
+        "article_title": "Российские DDoS-атаки вызвали тревогу в Дании и США",
+        "article_url": "https://www.securitylab.ru/news/536213.php",
+        "article_desc": "После серий атак на больницы и госучреждения западные страны задумались об усилении кибербезопасности."
+    },
+    "536212": {
+        "article_date_timestamp": 1675227264.0,
+        "article_title": "Хакеры обнародовали данные клиентов платежного сервиса Best2Pay",
+        "article_url": "https://www.securitylab.ru/news/536212.php",
+        "article_desc": "В открытый доступ попали персональные данные 1 миллиона пользователей"
+    },
+    "536211": {
+        "article_date_timestamp": 1675221723.0,
+        "article_title": "OpenAI выпустил инструмент для распознавания собственных текстов",
+        "article_url": "https://www.securitylab.ru/news/536211.php",
+        "article_desc": "Программа неправильно классифицирует 9% текстов, созданных человеком."
+    }
+}

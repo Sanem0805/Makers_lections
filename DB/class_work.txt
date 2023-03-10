@@ -1,0 +1,136 @@
+#psql
+sanem0805=# create type job as enum ('mentor', 'tracker', 'scrum');
+CREATE TYPE
+
+sanem0805=# create table makers(
+sanem0805(# mentor_id serial primary key,
+sanem0805(# name varchar(50) not null,
+sanem0805(# position job not null,
+sanem0805(# birthday int,
+sanem0805(# salary int);
+CREATE TABLE
+
+sanem0805=# insert into makers (name, position, birthday, salary) values ('John', 'mentor', 13, 50000);
+INSERT 0 1
+sanem0805=# insert into makers (name, position, birthday, salary) values ('Sali', 'tracker', 12, 2000);
+INSERT 0 1
+sanem0805=# insert into makers (name, position, birthday, salary) values ('Jack', 'mentor', 1, 8000);
+INSERT 0 1
+sanem0805=# insert into makers (name, position, birthday, salary) values ('Alice', 'scrum', 22, 1000);
+INSERT 0 1
+sanem0805=# insert into makers (name, position, birthday, salary) values ('Mike', 'scrum', 21, 4000);
+INSERT 0 1
+sanem0805=# insert into makers (name, position, birthday, salary) values ('Donald', 'mentor', 22, 7000);
+INSERT 0 1
+sanem0805=# insert into makers (name, position, birthday, salary) values ('Deni', 'tracker', 22, 3000);
+INSERT 0 1
+sanem0805=# insert into makers (name, position, birthday, salary) values ('Vasya', 'tracker', 25, 2500);
+INSERT 0 1
+sanem0805=# insert into makers (name, position, birthday, salary) values ('Lary', 'mentor', 31, 4500);
+INSERT 0 1
+sanem0805=# insert into makers (name, position, birthday, salary) values ('Megan', 'scrum', 31, 2700);
+INSERT 0 1
+sanem0805=# insert into makers (name, position, birthday, salary) values ('Leyla', 'tracker', 14, 3400);
+INSERT 0 1
+sanem0805=# insert into makers (name, position, birthday, salary) values ('Ali', 'scrum', 26, 6000);
+INSERT 0 1
+sanem0805=# insert into makers (name, position, birthday, salary) values ('Devid', 'mentor', 26, 3500);
+INSERT 0 1
+sanem0805=# insert into makers (name, position, birthday, salary) values ('Mks', 'mentor', 26, 3500);
+INSERT 0 1
+sanem0805=# insert into makers (name, position, birthday, salary) values ('Kevin', 'mentor', 26, 1000);
+INSERT 0 1
+sanem0805=# select * from makers;
+ mentor_id |  name  | position | birthday | salary 
+-----------+--------+----------+----------+--------
+         1 | John   | mentor   |       13 |  50000
+         2 | Sali   | tracker  |       12 |   2000
+         3 | Jack   | mentor   |        1 |   8000
+         4 | Alice  | scrum    |       22 |   1000
+         5 | Mike   | scrum    |       21 |   4000
+         6 | Donald | mentor   |       22 |   7000
+         7 | Deni   | tracker  |       22 |   3000
+         8 | Vasya  | tracker  |       25 |   2500
+         9 | Lary   | mentor   |       31 |   4500
+        10 | Megan  | scrum    |       31 |   2700
+        11 | Leyla  | tracker  |       14 |   3400
+        12 | Ali    | scrum    |       26 |   6000
+        13 | Devid  | mentor   |       26 |   3500
+        14 | Mks    | mentor   |       26 |   3500
+        15 | Kevin  | mentor   |       26 |   1000
+(15 rows)
+sanem0805=# SELECT name || ' ' || position as mentors from makers;
+    mentors    
+---------------
+ John mentor
+ Sali tracker
+ Jack mentor
+ Alice scrum
+ Mike scrum
+ Donald mentor
+ Deni tracker
+ Vasya tracker
+ Lary mentor
+ Megan scrum
+ Leyla tracker
+ Ali scrum
+ Devid mentor
+ Mks mentor
+ Kevin mentor
+(15 rows)
+
+sanem0805=# select birthday from makers order by birthday desc;
+
+sanem0805=# SELECT name FROM makers WHERE name LIKE 'S%';
+sanem0805=# SELECT name FROM makers WHERE name LIKE 'A%';
+sanem0805=# SELECT * FROM makers WHERE salary BETWEEN 5000 and 8000;
+ mentor_id |  name  | position | birthday | salary 
+-----------+--------+----------+----------+--------
+         3 | Jack   | mentor   |        1 |   8000
+         6 | Donald | mentor   |       22 |   7000
+        12 | Ali    | scrum    |       26 |   6000
+
+anem0805=# select max(salary) from makers;
+sanem0805=# select * from makers order by salary desc limit 3;
+
+sanem0805=# SELECT COUNT(*) FROM makers WHERE position = 'mentor';
+ count 
+-------
+     7
+(1 row)
+
+sanem0805=# SELECT COUNT(*) FROM makers WHERE position = 'tracker'; 
+ count 
+-------
+     4
+(1 row)
+
+sanem0805=# SELECT COUNT(*) FROM makers WHERE position = 'scrum';
+ count 
+-------
+     4
+(1 row)
+
+sanem0805=# SELECT AVG(salary) FROM makers WHERE position = 'scrum';
+          avg          
+-----------------------
+ 3425.0000000000000000
+(1 row)
+
+sanem0805=# select name, length(name) from makers order by length(name);
+  name  | length 
+--------+--------
+
+sanem0805=# UPDATE makers SET salary=6000 WHERE mentor_id=8;
+UPDATE 1
+
+sanem0805=# DELETE FROM makers WHERE salary < 2000;
+DELETE 2
+
+sanem0805=# DELETE FROM makers WHERE salary < 2000;
+DELETE 2
+sanem0805=# ALTER TABLE makers DROP COLUMN salary;
+ALTER TABLE
+
+RENAME COLUMN mentor_id TO employee_id;
+ALTER TABLE
